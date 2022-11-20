@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100&family=Poppins:wght@100&family=Roboto+Slab:wght@300&family=Roboto:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins'sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(#fad0c4,#ffd1ff);
+}
+.container{
+    width: 200px;
+    height: 550px;
+    margin: 20px 550px;
+}
+h1{
+    font-weight: 300;
+    padding-left: 90px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.calculator{
+    width: 320px;
+    height: 520px;
+    background: linear-gradient(#f5beaf,#f3aaf3);
+    margin: 0 auto;
+    top:20px;
+    position: relative;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 2px black;
+    border: none;
+}
+.result{
+    height: 120px;
+    font-weight: 85;
+}
+.history{
+    text-align: right;
+    height: 20px;
+    margin: 0 20px;
+    padding-top: 20px;
+    font-size: 15px;
+    color: #030e11;
+}
+.output{
+    text-align: right;
+    height:60px;
+    margin:10px 20px;
+    font-size: 30px;
+}
+.keyboard{
+    height:400px;
+    border-top: 2px solid white;
+}
+.operator, .number, .empty{
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float:left;
+    border-radius: 50%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 15px;
+}
+.number,.empty{
+    background-color: #eaedef;
+}
+.operator{
+    background: lightgrey;
+}
+.number,.operator{
+    cursor: pointer;
+}
+.operator:active,.number:active{
+    font-size: 13px;
+}
+.operator:focus,.number:focus,.empty:focus{
+    outline: 0;
+}
+.operator:nth-child(4){
+    font-size: 20px;
+}
+.operator:nth-child(8){
+    font-size: 20px;
+}
+.operator:nth-child(12){
+    font-size: 20px;
+}
+.operator:nth-child(16){
+    font-size: 20px;
+}
+.operator:nth-child(20){
+    font-size: 20px;;
+}
+.operator:hover{
+    box-shadow: 1px 1px 10px black;
+}
+
+.number:hover{
+    box-shadow: 1px 1px 10px black;
+}
+
+.empty{
+    background-color: #f3aaf3;
+}
